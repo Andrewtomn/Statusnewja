@@ -5,6 +5,10 @@ source 'https://rubygems.org'
 gem 'rails', '4.2.5'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
+#Bootsrap Gemfile
+gem 'bootstrap', '~> 4.1', '>= 4.1.3'
+#PUma server application 
+gem 'puma', '~> 3.11', '>= 3.11.4'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
@@ -44,4 +48,3 @@ group :development do
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
 end
-
